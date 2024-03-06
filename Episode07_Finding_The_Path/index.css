@@ -1,0 +1,109 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+/* !  ////////////////////// Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container {
+    width: 75px;
+}
+
+.logo-container > .logo{
+    width: 100%;
+}
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navlinks > li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/* !  ////////////////////// Body */
+.body{
+    padding: 35px;
+    margin: 0;
+}
+
+.search{
+    padding: 20px;
+}
+
+.res-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.res-card {
+    width: 100%;
+    max-width: 270px;
+    background: #efefef;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.res-card:hover{
+    outline: 1px solid #bfbfbf;
+    cursor: pointer;
+    scale: 1.01;
+    transition: scale 0.2s ease;
+}
+
+.res-card > img{
+    width: 100%;
+}
+
+/* ! //////////////// Footer */
+
+.footer{
+    background-color: #dfdfdf;
+    padding: 20px;
+}
+
+
+
+/* ! /////////////// Shimmer UI */
+.shimmer-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 80px 50px;
+}
+
+.shimmer-card{
+    width: 260px;
+    height: 370px;
+    background: #dfdfdf;
+}
+
+/* ! //////////////////// */
+
+.filters{
+    display: flex;
+    gap: 30px;
+}
+
+/* .filters button.filter{
+    padding: 5px
+} */
